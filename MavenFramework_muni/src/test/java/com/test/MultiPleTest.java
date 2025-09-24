@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 
 public class MultiPleTest extends SetUp{
 	
-	@Test(priority = 1)
+	@Test
 	public void MouseHovering() throws InterruptedException {
 
 		WebElement accountlist = driver.findElement(By.xpath("//span[contains(text(),'Account & Lists')]"));
@@ -38,7 +38,7 @@ public class MultiPleTest extends SetUp{
 
 	}
 
-	@Test(priority = 2)
+	@Test
 	public void AdvanceDropDown() throws InterruptedException {
 
 		WebElement countrydropdown = driver.findElement(By.id("searchDropdownBox"));

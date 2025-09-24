@@ -5,6 +5,7 @@
     <classes>
       <class name="com.test.MultiPleTest"/>
       <class name="com.test.MouseHovering"/>
+      <class name="com.test.DragDrop"/>
     </classes>
   </test> <!-- Test hgddsfjksdgfkjhsdkfjhdksfri -->
 </suite> <!-- Suite -->
